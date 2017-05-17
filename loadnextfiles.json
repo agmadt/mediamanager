@@ -1,22 +1,22 @@
 [
     {
-        "path": "files/",
+        "path": "example/files/",
         "filename": "unsplash-10.jpg"
     },
     {
-        "path": "files/",
+        "path": "example/files/",
         "filename": "unsplash-11.jpg"
     },
     {
-        "path": "files/",
+        "path": "example/files/",
         "filename": "unsplash-12.jpg"
     },
     {
-        "path": "files/",
+        "path": "example/files/",
         "filename": "unsplash-13.jpg"
     },
     {
-        "path": "files/",
+        "path": "example/files/",
         "filename": "unsplash-14.jpg"
     }
 ]
