@@ -320,7 +320,7 @@ string: The data is returned as text, the data will be look like HTML DOM in the
             var oEditor = CKEDITOR.instances.editor;
 
             var mediamanager = new Mediamanager({
-                loadItemsUrl: 'loadfiles.json',
+                loadItemsUrl: 'example/loadfiles.json',
             });
 
             document.getElementById('summernoteMedia').addEventListener('click', function () {
@@ -345,8 +345,8 @@ string: The data is returned as text, the data will be look like HTML DOM in the
                 deleteButtonText: 'Delete',
                 deleteConfirmationText: 'Are you sure?',
                 deleteItemUrl: '/',
-                loadItemsUrl: 'loadfiles.php',
-                loadNextItemsUrl: 'loadnextfiles.json',
+                loadItemsUrl: 'example/loadfiles.json',
+                loadNextItemsUrl: 'example/loadnextfiles.json',
                 loadNextItemDelay: 3000,
                 uploadUrl: 'uploadfiles.php',
                 insertType: 'object',
