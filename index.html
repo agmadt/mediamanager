@@ -242,6 +242,19 @@ var mediamanager = new Mediamanager({
 2. The current working example is using static file.
 3. The loadNextItem is happening when the scrollbar at Media Manager reach bottom, the loadNextItem has 5second delay (default)(can be changed) before can be executed again.
 4. This function send the current total loaded item in Media Manager to be used at backend for showing the next loaded item, you can just see what data is sent at dev tools, network panel.
+5. The expected returned data is an array of 'media item object', similar to loadItemsUrl.
+{
+    [
+        {
+            "path": "files/",
+            "filename": "unsplash-2.jpg"
+        },
+        {
+            "path": "files/",
+            "filename": "unsplash-3.jpg"
+        }
+    ]
+}
 </code></pre>
                         </td>
                     </tr>
